@@ -1,0 +1,4 @@
+# Netlify instructions for building this site
+[build]
+  publish = "_site"
+  command = "npm run build"

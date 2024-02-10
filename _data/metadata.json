@@ -1,0 +1,11 @@
+{
+  "title": "11ty Website: Site, Blog, Wiki, & About",
+  "domain": "https://site.local",
+  "description": "A simple Eleventy project, which includes a Site page, a Blog, a Wiki, and an About page",
+  "keywords": ["eleventy", "static-site"],
+  "year": 2024,
+  "author": {
+    "name": "Website's Author",
+	"email": "author@site.local"
+  }
+}

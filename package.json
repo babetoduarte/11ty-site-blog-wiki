@@ -1,0 +1,24 @@
+{
+  "name": "11ty-site-blog-wiki",
+  "version": "0.1.0",
+  "description": "A simple Eleventy project, which includes a Site page, a Blog, a Wiki, and an About page",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/11ty-bio-blog-wiki/",
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+    "debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+    "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+  },
+  "keywords": [
+    "eleventy",
+    "static-site"
+  ],
+  "author": "Website's Author",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "luxon": "^3.4.0"
+  }
+}
